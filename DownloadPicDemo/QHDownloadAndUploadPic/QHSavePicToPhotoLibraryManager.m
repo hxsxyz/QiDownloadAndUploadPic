@@ -172,7 +172,7 @@
         self.createCollection = [self createPHAssetLibraryWithName:libryName];
     }
 
-    UIImage* imagePhoto = [imageList firstObject];
+    UIImage *imagePhoto = [imageList firstObject];
     [[PHPhotoLibrary sharedPhotoLibrary] performChanges:^{
         PHAssetCollectionChangeRequest *assetCollectionChangeRequest;
         
